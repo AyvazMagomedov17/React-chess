@@ -1,0 +1,42 @@
+.winPopup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(7, 7, 7, 0.375);
+}
+.content{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+
+}
+.body{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.closeButton{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.restartButton{
+    background-color: rgb(9, 255, 226);
+    height: 35px;
+    border-radius: 10px;
+}

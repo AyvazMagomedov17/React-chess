@@ -1,0 +1,17 @@
+
+.boardComponent{
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+        
+}
+.board{
+    width: calc(64px*8);
+    height: calc(64px*8);
+    display: flex;
+    flex-wrap: wrap;
+}
