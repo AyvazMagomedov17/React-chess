@@ -18,8 +18,8 @@ const Timer = ({ setIsBlackPlayerWon, setIsWhitePlayerWon, setIsFirstMoveMade, i
     const [whiteTimer, setWhiteTimer] = useState(300)
     const timer = useRef<null | ReturnType<typeof setInterval>>(null)
     const restart = () => {
-        setBlackTimer(5)
-        setWhiteTimer(5)
+        setBlackTimer(300)
+        setWhiteTimer(300)
 
         if (timer.current)
             clearInterval(timer.current)
